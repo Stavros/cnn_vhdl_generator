@@ -1,0 +1,11 @@
+Row_count,6
+Image_Size,32
+Image_type,Colored,24
+N_Classes,10
+Classifier,SoftMax
+Convolution,6,5,0,1,Tanh,
+Pooling,6,2,0,2,Avg-Pool,
+Convolution,16,5,0,1,Tanh,
+Pooling,16,2,0,2,Avg-Pool,
+Convolution,120,5,0,1,Tanh,
+Fully-Connected,10,1,0,1,Tanh
