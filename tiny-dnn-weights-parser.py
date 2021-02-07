@@ -2,7 +2,7 @@
 
 import json
 
-with open('c:/Users/Stavros/Downloads/LeNet-model.json') as f:
+with open('./LeNet-model.json') as f:
   data = json.loads(f.read())
 
 count = 0   # debug counter
