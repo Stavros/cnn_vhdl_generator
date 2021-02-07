@@ -33,6 +33,6 @@ for key, value in data.items():
               print(who,dec)
               #int32bits = np.asarray(dictd[count], dtype=np.float32).view(np.int32).item()  # .item() optional
               int_whole = np.asarray(who, dtype=np.int).view(np.int).item() 
-              int_dec = np.asarray(dec, dtype=np.float32).view(np.int32).item() 
+              int_dec = np.asarray(dec, dtype=np.float16).view(np.int16).item() 
               print('{:02b}'.format(int_whole))
               print('{:016b}'.format(int_dec))
